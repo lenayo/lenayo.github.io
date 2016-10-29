@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<course>
+	<wrapperSettings>
+		<!-- http://www.triomedia.com/-->
+		<param name="courseHistoryId">test049</param>
+		<param name="mainPath"></param>
+		<param name="bandwidthPaths">56k/|128k/|256k/</param>
+		<param name="securityFile">securityallowdomain.swf</param>
+		<param name="dataBase"></param>
+		<param name="courseTitle"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="19" COLOR="#006633"><b>Building our brand from the inside out</b></FONT></P></TEXTFORMAT>]]></param>
+		<param name="preloaderBgColor">0xffffff</param>
+		<param name="forceBookMarkReturn">false</param>
+		<param name="forceModuleOrder">true</param>
+		<param name="useClosedCaption">true</param>
+	</wrapperSettings>
+	<topNavSettings>
+		<param name="leftLogo">wrapperGraphics/aciLogo.swf</param>
+		<param name="rightLogo">wrapperGraphics/trioLogo.swf</param>
+		<param name="activeBtns">courseMap|extras|help|minimize|exit</param>
+		<param name="notesUrl">notes/index.htm</param>
+		<param name="extrasUrl">extras/index.htm</param>
+		<param name="helpUrl">help/index.htm</param>
+		<param name="overideMenuCellHeight">true</param>
+		<param name="menuCellHeight">20</param>
+	</topNavSettings>
+	<courseMapSettings>
+		<objectives>
+			<param name="picUrl">wrapperGraphics/image.jpg</param>
+			<param name="title"><![CDATA[<TEXTFORMAT LEADING="4"><P ALIGN="LEFT"><FONT FACE="Arial" FONT-WEIGHT="bold" SIZE="16" COLOR="#ffffff">COURSE OBJECTIVES</FONT></P></TEXTFORMAT>]]></param>
+			<param name="content"><![CDATA[<font color='#333333'  SIZE="12"><br><p>This Discovery Learning Activity communicates:<br><br><ul><li>The American Century Investments' business model, and how it has evolved.<br><br>Who the customers or clients of each channel are, why they choose us over our competitors, and how they use our products and services<br><br>How each channel aligns itself and its offerings to meet its customers' investment needs (vs. merely 'distributing products')<br><br>Why a company-wide perspective and a commitment to customers in all distribution channels is a responsibility of every employee<br><br>An opportunity for participants to apply this specific knowledge in their daily work<br></li></ul></p></font>]]></param>
+		</objectives>
+		<courseMap>
+			<textSettings>
+				<param name="title"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" FONT-WEIGHT="bold" SIZE="14" COLOR="#ffffff">COURSE MAP</FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot1"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666"> MODULE TITLE & DESCRIPTION</FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666"> PROGRESS</FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot3"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666"> DURATION</FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot4"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE="11" COLOR="#666666">COMPLETE</FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot5"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE="11" COLOR="#666666"></FONT></P></TEXTFORMAT>]]></param>
+				<param name="textSlot6"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE="11" COLOR="#666666"></FONT></P></TEXTFORMAT>]]></param>
+				<param name="showScoreText">false</param>			
+				<param name="scoreText"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="RIGHT"><FONT FACE="Arial" SIZE="12" COLOR="#666666"> </FONT></P></TEXTFORMAT>]]></param>
+				<param name="btnRollOutColor">0xDFE3D9</param>
+				<param name="btnRollOverColor">0xAAAAAA</param>
+				<param name="btnDisabledColor">0x4D4D3E</param>
+			</textSettings>
+			<btns>
+				<btn id="1">
+					<param name="numberOveride"><![CDATA[]]></param>
+					<param name="thumbnailUrl">wrapperGraphics/thumb1.swf</param>
+					<param name="title"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="12" COLOR="#666666">MODULE 1:<br>Discovering Brand. CLICK HERE TO BEGIN.</FONT></P></TEXTFORMAT>]]></param>
+					<param name="description"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666">Get acquainted with the course navigation as well as the evolution of our customers and channels.  After you're finished, you'll be ready to tackle the following three modules.<br></FONT></P></TEXTFORMAT>]]></param>
+					<param name="duration"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE="15" COLOR="#7C8FA0"><b>5 min</b></FONT></P></TEXTFORMAT>]]></param>
+					<param name="showScore">false</param>
+					<param name="showNotes">false</param>
+				</btn>		
+						
+				<btn id="2">
+					<param name="numberOveride"><![CDATA[]]></param>
+					<param name="thumbnailUrl">wrapperGraphics/thumb2.swf</param>
+					<param name="title"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="12" COLOR="#666666">MODULE 2:<br>Bringing our brand to life</FONT></P></TEXTFORMAT>]]></param>
+					<param name="description"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial" SIZE="11" COLOR="#666666">In this module, you'll have the opportunity to review the Discovery Map and then build out our business model.<br></FONT></P></TEXTFORMAT>]]></param>
+					<param name="duration"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE="15" COLOR="#7C8FA0"><b>10 min</b></FONT></P></TEXTFORMAT>]]></param>
+					<param name="showScore">false</param>
+					<param name="showNotes">false</param>
+				</btn>
+				
+				
+			</btns>
+		</courseMap>
+	</courseMapSettings>
+	<bottomNavSettings>
+		<param name="currentPageColor">0x006633</param>
+		<param name="visitedPageColor">0xFDCD26</param>
+		<param name="unvisitedPageColor">0xE1E6EC</param>
+		<param name="reloadBtnText"><![CDATA[<TEXTFORMAT LEADING="2"><FONT FACE="Arial" SIZE="9" COLOR="#333333"><P ALIGN="CENTER">RELOAD</P></FONT></TEXTFORMAT>]]></param>
+		<param name="backBtnText"><![CDATA[<TEXTFORMAT LEADING="2"><FONT FACE="Arial" SIZE="9" COLOR="#333333"><P ALIGN="CENTER">BACK</P></FONT></TEXTFORMAT>]]></param>
+			<param name="nextBtnText"><![CDATA[<TEXTFORMAT LEADING="2"><FONT FACE="Arial" SIZE="9" COLOR="#333333"><P ALIGN="LEFT">FORWARD</P></FONT></TEXTFORMAT>]]></param>
+		<param name="showProgress">true</param>
+	</bottomNavSettings>
+	<globalPageData>
+		<!-- page data settings -->
+		<param name="mediaXPos">35</param>
+		<param name="mediaYPos">92</param>
+		<param name="mediaWidth">302</param>
+		<param name="mediaHeight">227</param>
+		<param name="interactionXPos">0</param>
+		<param name="interactionYPos">0</param>
+		<param name="interactionWidth">1004</param>
+		<param name="interactionHeight">550</param>
+		<param name="bgXPos">0</param>
+		<param name="bgYPos">0</param>
+		<param name="bgWidth">1004</param>
+		<param name="bgHeight">550</param>
+		<param name="stream">true</param>
+		<param name="frameRate">10^12^24</param>
+		<param name="cacheFile">true</param>
+		<!-- controller ui settings -->
+		<param name="useMediaController">true</param>
+		<param name="useMediaControllerTimeReadOut">false</param>
+		<param name="mediaControllerXOffSet">0</param>
+		<param name="mediaControllerYOffSet">-18</param>
+		<param name="mediaControllerXPadding">-4</param>
+		<!-- controller color settings -->
+		<param name="symbolUpColor">0x006633</param>
+		<param name="symbolOverColor">0x006633</param>
+		<param name="symbolPressedColor">0xFDCD26</param>
+		<param name="controllBtnUpOutlineColor">0x000000</param>
+		<param name="controllBtnOverOutlineColor">0x9000000</param>
+		<param name="controllBtnPressedOutlineColor">0x000000</param>
+		<param name="controllBtnUpFillColor">0xE6E6E6</param>
+		<param name="controllBtnOverFillColor">0xD1D1D1</param>
+		<param name="controllBtnPressedFillColor">0xD1D1D1</param>
+		<param name="scrubberBtnUpOutlineColor">0x3F2600</param>
+		<param name="scrubberBtnOverOutlineColor">0x000000</param>
+		<param name="scrubberBtnPressedOutlineColor">0x76223E</param>
+		<param name="scrubberBtnUpFillColor">0xFFAF04</param>
+		<param name="scrubberBtnOverFillColor">0xF1F1F1</param>
+		<param name="scrubberBtnPressedFillColor">0x7D7D7D</param>
+		<param name="scrubberBgOutlineColor">0x000000</param>
+		<param name="scrubberBgFillColor">0xFFFFFF</param>
+		<param name="loadProgressFillColor">0x006633</param>
+		<param name="loadProgressOutlineColor">0x000000</param>
+		<param name="timeReadOutColor">0xFFFFFF</param>
+	</globalPageData>
+	<modules>
+		<module id="1">
+			<page id="1" title="Who builds our brand?">
+				<param name="mediaContent">page/ab0100101a.swf|page/ab_forward01f.swf</param>
+				<param name="mediaXPos">12</param>
+				<param name="mediaYPos">12</param>
+				<param name="mediaWidth">981</param>
+				<param name="mediaHeight">526</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0100101f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0100101a.swf_cc"><![CDATA[Have you ever looked closely at a picture, close enough that your nose touches the image? What do you see? You start to see the individual elements that make up the picture. You see the individual brush strokes in a painting. The pixilation of a TV screen or a computer monitor. And the closer you look the more you notice the smaller points become bigger. But then you step away and realize the points are surrounded by thousands of other points. Small, but not insignificant. Working together to create the bigger picture. American Century Investments is made up of thousands of points like these and every employee has the opportunity to influence each touchpoint, everyday. An investor, a recruit, an advisor or client may encounter American Century Investments in many ways. Every time an employee answers the phone, when an investor walks into the lobby of our building, even through a TV ad. And every time an investor comes in contact with our company, he or she forms an opinion about who we are and determines if we're right for them. In short, our big picture. Our big picture will only be clear by projecting a unified image at every touchpoint. And every touchpoint, no matter how small, contributes to the big picture.]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="2" title="What is brand?">
+				<param name="mediaContent">video/ab0100201v.swf</param>
+				<param name="mediaXPos">108</param>
+				<param name="mediaYPos">30</param>
+				<param name="mediaWidth">502</param>
+				<param name="mediaHeight">507</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0100201f.swf</param>
+				<!-- cc text -->
+				<param name="video/ab0100201v.swf_cc"><![CDATA[Thank you for taking the time to discover more about our big picture. More about American Century Investments. Let's begin by answering, what is a brand? Why is it important? What is our brand vision? Go ahead and click on Definition to begin.]]></param>
+				<param name="video/ab0100202v.swf_cc"><![CDATA[Definition. Brand is defined as a collection of perceptions about what our company does, what we stand for, what we value, what we look like and why customers should do business with us.]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="3" title="What is brand?">
+				<param name="mediaContent">video/ab0100203v.swf|video/ab0100301v.swf</param>
+				<param name="mediaXPos">38</param>
+				<param name="mediaYPos">93</param>
+				<param name="mediaWidth">300</param>
+				<param name="mediaHeight">225</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0100301f.swf</param>
+				<!-- cc text -->
+				<param name="video/ab0100203v.swf_cc"><![CDATA[So why is this collection of perceptions so important? Click on Benefits to find out.]]></param>
+				<param name="video/ab0100301v.swf_cc"><![CDATA[Benefits. Focusing all our efforts on a single, big picture helps our company on many levels. When an investor or client recognizes the strength of American Century Investments it makes it easier to introduce new products and services and maximizes the efficiency of communications spending. Being consistent in who we are and what we stand for creates a strong brand in the minds of investors. And research has proven time and again that consumers are loyal to strong brands. The ability to be consistent in what we do and say, doing the right things for our investors and clients is so important to our company it is a part of Our Path to Success.]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			
+			<page id="4" title="What is brand?">
+				<param name="mediaContent">video/ab0100302v.swf|video/ab0100401v.swf</param>
+				<param name="mediaXPos">38</param>
+				<param name="mediaYPos">93</param>
+				<param name="mediaWidth">300</param>
+				<param name="mediaHeight">225</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0100401f.swf</param>
+				<!-- cc text -->
+				<param name="video/ab0100302v.swf_cc"><![CDATA[Click on Vision to learn more.]]></param>
+				<param name="video/ab0100301v.swf_cc"><![CDATA[Vision. So back to the big picture... How do we ensure that every touchpoint reinforces who we are? First we need to articulate it. We use what we call the brand vision to do that. Our brand vision is to be the premier investment manager for people who believe in doing well and doing good. This is the idea we want American Century Investments to stand for in the minds of our investors, peers, business partners, our community and each other. Who we are - a premier investment manager; who are we for - people who believe in doing well and doing good. And when every touchpoint in the big picture resonates with our vision, no matter how large or small, the image we present will be clear and unified.]]></param>
+				<param name="video/ab0100302v.swf_cc"><![CDATA[Now that you know what a our brand vision is and  why it's important, click forward to discover ways you can bring our brand to life.]]></param>
+				<param name="page/ab_forward01endf.swf_cc"><![CDATA[Congratulations! You have completed Module 1. Click Forward to continue.....]]></param>
+			</page>
+		</module>
+		
+		
+		<module id="2">
+			<page id="1" title="Doing Well Doing Good">
+				<param name="mediaContent">video/ab0200101v.swf|page/ab_forward01f.swf</param>
+				<param name="mediaXPos">35</param>
+				<param name="mediaYPos">92</param>
+				<param name="mediaWidth">302</param>
+				<param name="mediaHeight">227</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200101f.swf</param>
+				<!-- cc text -->
+				<param name="video/ab0200101v.swf_cc"><![CDATA[Let's talk about “doing well and doing good.” Our investors and clients expect results. So, we've made our sole business focus to grow the assets they entrust to us. That's doing well for investors and clients. But it's not just results, but how we achieve them that also matters. Guided by the values of our founder, Mr. Stowers, investors and clients can count on our commitment to their success. We have a track record of integrity. We are optimistic about the future and the good that money can do in the world around us. That's doing good for our investors and clients. How can they be sure?  Mr. Stowers provides the ultimate example. He founded American Century Investments to help improve people’s financial position. Today he and his wife, Virginia, have translated that success into helping improve lives through the Stowers Institute for Medical Research. Mr. Stowers said it best... “The people of American Century Investments have always understood that you invest more than your money with us—you place a piece of your future in our hands. We believe you place such enormous trust in us because we are guided by values that you share.” James Stowers, Jr., Founder]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="2" title="Testimonials">
+				<param name="mediaContent">video/ab0200201v.swf|page/ab_forward01f.swf</param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200201f.swf</param>
+				<!-- cc text -->
+				<param name="video/ab0200201v.swf_cc"><![CDATA[This approach to doing business is already a part of who we are today and what we aspire to be known for in the future. This vision expresses who we are and who we are for: employees, investors and clients who demand results and prioritize values. But how is the vision used everyday? How will you use it? You won't see it on our letterhead, you won't use it in email signatures. It acts as a guide for everything we do, those touchpoints for American Century Investments that make up the big picture. All these things - from the way you answer the phone, to the way you interact with co-workers, to the processes you develop, to the way you interact with investors - all can be done with 'doing well and doing good' in mind. Click on the images to hear from employees who are bringing our brand to life.]]></param>
+				<param name="video/ab0200202v.swf_cc"><![CDATA[This approach to doing business is already a part of who we are today and what we aspire to be known for in the future. This vision expresses who we are and who we are for: employees, investors and clients who demand results and prioritize values. But how is the vision used everyday? How will you use it? You won't see it on our letterhead, you won't use it in email signatures. It acts as a guide for everything we do, those touchpoints for American Century Investments that make up the big picture. All these things - from the way you answer the phone, to the way you interact with co-workers, to the processes you develop, to the way you interact with investors - all can be done with 'doing well and doing good' in mind. Click on the images to hear from employees who are bringing our brand to life.]]></param>
+				<param name="video/ab0200203v.swf_cc"><![CDATA[This approach to doing business is already a part of who we are today and what we aspire to be known for in the future. This vision expresses who we are and who we are for: employees, investors and clients who demand results and prioritize values. But how is the vision used everyday? How will you use it? You won't see it on our letterhead, you won't use it in email signatures. It acts as a guide for everything we do, those touchpoints for American Century Investments that make up the big picture. All these things - from the way you answer the phone, to the way you interact with co-workers, to the processes you develop, to the way you interact with investors - all can be done with 'doing well and doing good' in mind. Click on the images to hear from employees who are bringing our brand to life.]]></param>
+				<param name="page/ab_click01f.swf_cc"><![CDATA[Click on the image to hear from the next employee...]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="3" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200301f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200301f.swf_cc"><![CDATA[Let's take a moment to show what you know. Choose the correct answer for each of the following questions.]]></param>
+				<param name="page/ab0200301af.swf_cc"><![CDATA[Actually there's a better choice. Try again. Remember an investor may “meet” our brand through any number of ways: when an employee answers the phone, print ads, a brochure, our investor centers, the business processes we develop and even our website.]]></param>
+				<param name="page/ab0200302af.swf_cc"><![CDATA[Actually there's a better choice. Try again. Remember an investor may “meet” our brand through any number of ways: when an employee answers the phone, print ads, a brochure, our investor centers, the business processes we develop and even our website.]]></param>
+				<param name="page/ab0200303af.swf_cc"><![CDATA[Actually there's a better choice. Try again. Remember an investor may “meet” our brand through any number of ways: when an employee answers the phone, print ads, a brochure, our investor centers, the business processes we develop and even our website.]]></param>
+				<param name="page/ab0200304af.swf_cc"><![CDATA[That's right. Every employee has the opportunity to influence how investors and clients think and feel about American Century Investments. Our brand is made up of many points of contact. An investor (recruit or client) may “meet” American Century through any number of ways: print ads, a brochure, our investor centers, the website, the business processes we develop, even the way we answer the phone. Every time someone “meets” our brand, he or she forms an opinion. That is why every point of contact is an opportunity to project a unified image of our brand. Click forward to continue...]]></param>
+			</page>
+			<page id="4" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200401f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200401f.swf_cc"><![CDATA[Our brand vision is:]]></param>
+				<param name="page/ab0200401af.swf_cc"><![CDATA[Please try again, there is a better choice. Remember our vision defines who we are and the type of investor or client we are for.]]></param>
+				<param name="page/ab0200402af.swf_cc"><![CDATA[Good choice. Our brand vision is to be the premier investment manager for people who believe in doing well and doing good. This is the idea we want American Century Investments to stand for in the minds of our investors, peers, business partners, our community and each other. Click forward to continue... ]]></param>
+				<param name="page/ab0200403af.swf_cc"><![CDATA[Please try again, there is a better choice. Remember our vision defines who we are and the type of investor or client we are for.]]></param>
+				<param name="page/ab0200404af.swf_cc"><![CDATA[Please try again, there is a better choice. Remember our vision defines who we are and the type of investor or client we are for.]]></param>
+			</page>
+			<page id="5" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200501f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200501f.swf_cc"><![CDATA[Which of the following statements is TRUE with respect to a brand?]]></param>
+				<param name="page/ab0200501af.swf_cc"><![CDATA[This is not the best choice. Remember our brand is made up of many touch points. And every touchpoint, no matter how small, contributes to the bigger picture.]]></param>
+				<param name="page/ab0200502af.swf_cc"><![CDATA[This is not the best choice. Remember our brand is made up of many touch points. And every touchpoint, no matter how small, contributes to the bigger picture.]]></param>
+				<param name="page/ab0200503af.swf_cc"><![CDATA[That's right. A brand is a collection of perceptions in the minds of investors and clients; it is NOT a specific product or service. A brand is built not only through effective communications or appealing visuals, but through the total experience it offers. Click forward to continue...]]></param>
+				<param name="page/ab0200504af.swf_cc"><![CDATA[This is not the best choice. Remember our brand is made up of many touch points. And every touchpoint, no matter how small, contributes to the bigger picture.]]></param>
+			</page>
+			<page id="6" title="Our Personality">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200601f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200601f.swf_cc"><![CDATA[We've talked about who we are and who we are for, our vision of American Century Investments. Let's also talk about how, like a person, a company has a personality. For example, they may be adventurous, thoughtful, driven or a combination of these and other characteristics. These traits influence how they behave and how they are seen. A company's personality can be characterized in much the same way and can positively impact customer experiences and perceptions. When American Century Investments is at its best, our personality is captured in these three words: Focused, Committed and Optimistic. We exhibit many other characteristics, but we believe these three are the most accurate and relevant. These are the traits that guide how we make decisions, what we look like, how we communicate. ]]></param>
+				<param name="page/ab0200602f.swf_cc"><![CDATA[Our sole business is to manage money. We are investment specialists, hire the best people and employ highly defined, consistently applied, repeatable processes to achieve results. Our investor and clients selected a firm that takes no shortcuts and leaves little to chance.]]></param>
+				<param name="page/ab0200603f.swf_cc"><![CDATA[In an industry that thrives on numbers... we haven't lost site of our roots, our founding principle to enrich the lives of our investors by improving their financial position. Our reputation is built on honesty, integrity and determination. Our Guiding Principles serve as the foundation for everything we do from the way we treat our investors to our comprehensive benefits package to our commitment to community service. It is the reason that Fortune consistently names us one of the best places to work. Investors and clients can count on us to do the right thing for them and their money.]]></param>
+				<param name="page/ab0200604f.swf_cc"><![CDATA[We are confident and expect the best possible outcomes. As our founder Jim Stowers, Jr. often reminds us, “The best is yet to be.” Through our actions we are creating a brighter future for the people who are an integral part of our company – employees, investors and clients alike. We take a proactive approach to investing that is based on a disciplined investment process and a team management approach. This active management style enables us to find relevant investment opportunities in every market cycle. Our investors and clients can feel prepared, ready for what is next; confident about the future. While no one can make promises about the market, our investors and clients can be assured that we are working hard on their behalf for the best long-term results.]]></param>
+				<param name="page/ab0200605f.swf_cc"><![CDATA[We just described how the company exemplifies these traits, but that is only part of the picture. Each of us has the opportunity to bring focus, commitment and optimism to the work we do everyday, our individual contribution to the big picture. How are you focused? Committed? Or Optimistic in your role at American Century Investments. Click on resources to print off a worksheet to capture your thoughts. Share it with your manager or take it to your next team meeting to discuss with co-workers.]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="7" title="What about Lance Armstrong?">
+				<param name="mediaContent">page/ab0200801a.swf|page/ab_forward01f.swf</param>
+				<param name="mediaXPos">12</param>
+				<param name="mediaYPos">12</param>
+				<param name="mediaWidth">981</param>
+				<param name="mediaHeight">526</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200801f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200801a.swf_cc"><![CDATA[What about Lance Armstrong? What is his role in the big picture? Well, Lance Armstrong is a visible expression of our vision. He will serve as a motivating force to inspire investors to take a more active role in planning for their financial future. His image is an example of someone who has done well (achieved results) and is doing good (inspiring and empowering people affected by cancer). Lance will appear in advertising and marketing efforts designed to convey the vision: American Century Investments is the premier investment manager for people who believe in doing well and doing good. Through these communications we intend to build our brand awareness with investors and clients who may not know us today.]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="8" title="Measuring Success">
+				<param name="mediaContent">page/ab0200901a.swf|page/ab_forward01f.swf</param>
+				<param name="mediaXPos">12</param>
+				<param name="mediaYPos">12</param>
+				<param name="mediaWidth">981</param>
+				<param name="mediaHeight">526</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0200901f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0200901a.swf_cc"><![CDATA[With all of our touchpoints working together toward a unified image, how do we measure our success? How do we know if it's working? Measuring our brand awareness is one of the ways. We measure how likely individual investors are to consider us. We assess how American Century Investments is perceived among individual investors, investment professionals and institutional professionals. And we measure the impact of all our marketing efforts, not just advertising. ]]></param>
+				<param name="page/ab_forward01f.swf_cc"><![CDATA[Click Forward to continue.....]]></param>
+			</page>
+			<page id="9" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0201001f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0201001f.swf_cc"><![CDATA[Let's take another moment to show what you know. Choose the correct answer for each of the following questions.]]></param>
+				<param name="page/ab0201001af.swf_cc"><![CDATA[Please try again. Remember the campaign is more than a slogan.]]></param>
+				<param name="page/ab0201002af.swf_cc"><![CDATA[Please try again. Remember the campaign is more than a slogan.]]></param>
+				<param name="page/ab0201003af.swf_cc"><![CDATA[Please try again. Remember the campaign is more than a slogan.]]></param>
+				<param name="page/ab0201004af.swf_cc"><![CDATA[Good choice. The purpose of our multi-year collaboration with Lance Armstrong is to motivate investors to take a more active role in planning for their financial future. Lance also personifies the idea of someone who has done well (achieved results)... and is doing good (inspiring and empowering people affected by cancer). “Put Your Lance Face On” is the theme of the advertising campaign that launched the collaboration - it is NOT our corporate tagline. Click forward to continue...]]></param>
+			</page>
+			<page id="10" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0201101f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0201101f.swf_cc"><![CDATA[Companies, like people, have their own unique personalities. This personality helps define who we are as a company. American Century Investments defines our personality as:]]></param>
+				<param name="page/ab0201101af.swf_cc"><![CDATA[That's right. A company's personality traits guide how we make decisions, what and how we communicate. American Century identifies our personality traits as focused, committed and optimistic. While we may exhibit some of the other characteristics listed above, we believe these three are the most accurate representation. Click forward to continue...]]></param>
+				<param name="page/ab0201102af.swf_cc"><![CDATA[Actually there's a better choice. While we may exhibit some of those traits, we chose the three that fit American Century Investments personality best.]]></param>
+				<param name="page/ab0201103af.swf_cc"><![CDATA[Actually there's a better choice. While we may exhibit some of those traits, we chose the three that fit American Century Investments personality best.]]></param>
+				<param name="page/ab0201104af.swf_cc"><![CDATA[Actually there's a better choice. While we may exhibit some of those traits, we chose the three that fit American Century Investments personality best.]]></param>
+			</page>
+			<page id="11" title="Core business knowledge challenge">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">347</param>
+				<param name="mediaYPos">106</param>
+				<param name="mediaWidth">630</param>
+				<param name="mediaHeight">380</param>
+				<param name="useMediaController">false</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="bgContent">page/ab0201201f.swf</param>
+				<!-- cc text -->
+				<param name="page/ab0201201f.swf_cc"><![CDATA[Which of the following descriptions is NOT true with respect to corporate brand awareness research?]]></param>
+				<param name="page/ab0201201af.swf_cc"><![CDATA[Please try again. Remember corporate brand awareness research measures more than advertising effectiveness.]]></param>
+				<param name="page/ab0201202af.swf_cc"><![CDATA[Please try again. Remember corporate brand awareness research measures more than advertising effectiveness.]]></param>
+				<param name="page/ab0201203af.swf_cc"><![CDATA[Please try again. Remember corporate brand awareness research measures more than advertising effectiveness.]]></param>
+				<param name="page/ab0201204af.swf_cc"><![CDATA[Nice work. Brand awareness is NOT the sole measure of advertising effectiveness. Brand awareness research assesses how we are perceived among individual investors, investment professionals and institutional professionals and how likely they are to consider us. Brand awareness research measures the impact of all our marketing efforts.]]></param>
+			</page>
+			
+			<page id="12" title="Course Evaluation">
+				<param name="mediaContent"></param>
+				<param name="mediaXPos">35</param>
+				<param name="mediaYPos">92</param>
+				<param name="mediaWidth">302</param>
+				<param name="mediaHeight">227</param>
+				<param name="useMediaController">true</param>
+				<param name="frameRate">6^12^24|24^24^24</param>
+				<param name="level1Url">http://63.76.53.36/acslevelone/save</param>
+				<param name="bgContent">page/level1.swf</param>
+				<!-- cc text -->
+				<param name="page/level1.swf_cc"><![CDATA[Fill out this evaluation in order to complete the course...]]></param>
+			</page>
+		</module>
+		
+
+
+	</modules>
+</course>

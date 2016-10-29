@@ -1,0 +1,339 @@
+BODY {
+  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ccc; PADDING-TOP: 0px; FONT-FAMILY: helvetica, arial, georgia, verdana, sans-serif; BACKGROUND-COLOR: #fff
+}
+A {
+  FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none; outline: none
+}
+A:visited {
+  COLOR: #000
+}
+A:active {
+  COLOR: #000
+}
+A:hover {
+  COLOR: #000; TEXT-DECORATION: underline
+}
+.ahem {
+  DISPLAY: none
+}
+STRONG {
+  FONT-WEIGHT: bold
+}
+B {
+  FONT-WEIGHT: bold
+}
+P {
+  MARGIN-TOP: 20px; FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 22px
+}
+H1 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 24px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 44px
+}
+H2 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 18px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 40px
+}
+H3 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 22px
+}
+H4 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 26px
+}
+H5 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 22px;
+}
+H6 {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 18px
+}
+IMG {
+  BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+FORM {
+  MARGIN: 0px 0px 0px 0px;
+  PADDING-TOP: 0px;
+  PADDING-BOTTOM: 0px;
+  PADDING-RIGHT: 0px;
+  PADDING-LEFT: 0px;
+}
+
+.nowrap {
+  MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; MARGIN-BOTTOM: 0px; WHITE-SPACE: nowrap
+}
+.tiny {
+  MARGIN-TOP: 15px; FONT-SIZE: 9px; MARGIN-BOTTOM: 5px; LINE-HEIGHT: 16px
+}
+
+
+
+.logo {
+  POSITION: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 110px;
+  MARGIN: 0px 0px 0px 0px;
+  padding: 0px;
+  border: 0px 0px 0px 0px;
+  background: #FF8B10;
+  BACKGROUND-IMAGE: url(images/triocenter.jpg);
+}
+
+.header {
+  POSITION: absolute;
+  top: 0px;
+  left: 200px;
+  width: 553px;
+  height: 110px;
+  MARGIN: 0px 0px 0px 0px;
+  padding: 00px;
+  border: 0px 0px 0px 0px;
+  background: #FF8B10;
+  BACKGROUND-IMAGE: url(images/header_grey_mid.jpg);
+}
+
+
+.header_end {
+  POSITION: absolute;
+  top: 0px;
+  left: 753px;
+  width: 47px;
+  height: 110px;
+  MARGIN: 0px 0px 0px 0px;
+  padding: 0px;
+  border: 0px 0px 0px 0px;
+  background: #FF8B10;
+  BACKGROUND-IMAGE: url(images/header_grey_end.jpg);
+}
+
+/****************************************/
+/* Column layout styles                 */
+/****************************************/
+#top {
+  BORDER-TOP: #000 0px solid;
+  BORDER-BOTTOM: #000 0px solid
+  BORDER-LEFT: #000 0px solid;
+  BORDER-RIGHT: #000 0px solid;
+  PADDING: 0px;
+  BACKGROUND: #FF8B10;
+  MARGIN: 0px 0px 0px 0px;
+  height: 130px; /* ie5win fudge begins */
+    voice-family: "\"}\"";
+    voice-family:inherit;
+    height: 110px;
+    }
+  html&gt;body #top {
+  height: 90px; /* ie5win fudge ends */
+}
+UNKNOWN {
+  HEIGHT: 90px
+}
+
+#left {
+  position: absolute;
+  top: 0px;
+  left: 9px;
+  MARGIN: 0px 0px 0px 0px;
+  padding: 0px;
+  border: 0px 0px 0px 0px;
+  width: 160px; /* ie5win fudge begins */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 160px;
+  BACKGROUND-IMAGE: url(images/left_nav_slice.jpg);
+  }
+ html>body #left {
+  width: 150px; /* ie5win fudge ends */
+}
+UNKNOWN {
+  WIDTH: 150px
+}
+
+#middle_1column {
+  padding: 10px;
+  border: 0px;
+  background: #666;
+  margin: 0px 150px 0px px;
+}
+
+#middle {
+  padding: 10px;
+  border: 0px;
+  background: #666;
+  margin: 0px 150px 0px 150px;
+
+}
+
+
+#right {
+  position: absolute;
+    top: 130px;
+    right: 0px; /* Opera5.02 will show a space
+    at right when there is no scroll bar */
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    background: #666;
+    width: 150px; /* ie5win fudge begins */
+    voice-family: "\"}\"";
+    voice-family:inherit;
+    width: 130px;
+    }
+html>body #right {width: 130px;}
+/* ie5win fudge ends */
+}
+UNKNOWN {
+  WIDTH: 130px
+}
+
+PRE {
+  MARGIN-TOP: 20px; FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 22px
+}
+
+/****************************************/
+/* TAB STYLES                           */
+/****************************************/
+DIV.tabBox {
+
+}
+DIV.tabArea {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 3px; PADDING-TOP: 0px }
+}
+A.tab {
+ BORDER-TOP: #f0d0ff 2px solid; BORDER-BOTTOM: #b090e0 0px solid; BORDER-LEFT: #f0d0ff 2px solid; BORDER-RIGHT: #b090e0 2px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; Z-INDEX: 100; POSITION: relative; TOP: 3px; BACKGROUND-COLOR: #74B71B; TEXT-DECORATION: none; moz-border-radius: .75em .75em 0em 0em; border-radius-topleft: .75em; border-radius-topright: .75em
+}
+A.tab {
+ COLOR: #558811
+}
+A.tab:visited {
+ COLOR: #558811
+}
+A.tab:hover {
+ BORDER-LEFT-COLOR: #c0a0f0; BORDER-BOTTOM-COLOR: #8060b0; COLOR: #558811; BORDER-TOP-COLOR: #c0a0f0; BACKGROUND-COLOR: #aaff22; BORDER-RIGHT-COLOR: #8060b0; TEXT-DECORATION: none
+}
+A.activeTab {
+ BORDER-LEFT-COLOR: #b090e0; BORDER-BOTTOM-COLOR: #7050a0; COLOR: #ffe0ff; BORDER-TOP-COLOR: #b090e0; BACKGROUND-COLOR: #558811; BORDER-RIGHT-COLOR: #7050a0
+}
+A.activeTab:hover {
+ BORDER-LEFT-COLOR: #b090e0; BORDER-BOTTOM-COLOR: #7050a0; COLOR: #ffe0ff; BORDER-TOP-COLOR: #b090e0; BACKGROUND-COLOR: #558811; BORDER-RIGHT-COLOR: #7050a0; TEXT-DECORATION: underline
+}
+A.activeTab:visited {
+ BORDER-LEFT-COLOR: #b090e0; BORDER-BOTTOM-COLOR: #7050a0; COLOR: #ffe0ff; BORDER-TOP-COLOR: #b090e0; BACKGROUND-COLOR: #558811; BORDER-RIGHT-COLOR: #7050a0
+}
+A.activeTab {
+ Z-INDEX: 102; PADDING-BOTTOM: 4px; TOP: 1px; TEXT-DECORATION: none;
+}
+DIV.tabMain {
+ BORDER-RIGHT: #7050a0 2px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #b090e0 2px solid; PADDING-LEFT: 0.5em; Z-INDEX: 101; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #b090e0 2px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #7050a0 2px solid; POSITION: relative; BACKGROUND-COLOR: #558811; moz-border-radius: 0em .5em .5em 0em; border-radius-topright: .5em; border-radius-bottomright: .5em
+}
+DIV.tabIframeWrapper {
+ WIDTH: 100%
+}
+IFRAME.tabContent {
+ BORDER-RIGHT: #b090e0 1px solid; BORDER-TOP: #7050a0 1px solid; BORDER-LEFT: #7050a0 1px solid; WIDTH: 100%; BORDER-BOTTOM: #b090e0 1px solid; HEIGHT: 36ex; BACKGROUND-COLOR: #74B71B
+}
+H4#title {
+ BORDER-RIGHT: #b090e0 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #7050a0 1px solid; MARGIN-TOP: 0em; PADDING-LEFT: 0.5em; FONT-WEIGHT: bold; MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 2px; BORDER-LEFT: #7050a0 1px solid; COLOR: #d0b0ff; PADDING-TOP: 2px; BORDER-BOTTOM: #b090e0 1px solid; BACKGROUND-COLOR: #503080
+}
+
+.nav_li {
+  TEXT-DECORATION: none;
+  MARGIN-TOP: 0px;
+  MARGIN-BOTTOM: 0px;
+}
+.nav_li A:link {
+  DISPLAY:block;
+  WIDTH: 90%;
+  TEXT-DECORATION: none;
+  COLOR: #000;
+}
+.nav_li A:visited {
+  TEXT-DECORATION: none;
+  COLOR: #000;
+}
+.nav_li A:hover {
+  FONT-WEIGHT: bold;
+  TEXT-DECORATION: none;
+  BACKGROUND: #FF8B10;
+  LIST-STYLE-IMAGE: url(images/bullet_black.gif);
+}
+.nav_ul {
+  FONT-SIZE: 10px;
+  FONT-WEIGHT: normal;
+  COLOR: #000;
+  PADDING-TOP: 0px;
+  PADDING-BOTTOM: 0px;
+  PADDING-RIGHT: 0px;
+  PADDING-LEFT: 0px;
+  LIST-STYLE-IMAGE: url(images/bullet_white.gif);
+  MARGIN-TOP: 0px;
+  MARGIN-BOTTOM: 0px;
+  MARGIN-LEFT: 18px;
+  MARGIN-RIGHT: 0px;
+  BACKGROUND: #e8e8e8;
+}
+
+.navhead {
+  WIDTH: 160px;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 12px;
+  PADDING-LEFT: 10px;
+  COLOR: #000;
+  BACKGROUND: #a9abaf;
+}
+
+.navbody {
+  BACKGROUND: #E7E7E7;
+}
+
+#nav {
+  TOP: 0px;
+  LEFT: 0px;
+  WIDTH: 160px;
+  POSITION: absolute;
+  BACKGROUND: #fff;
+  PADDING-LEFT: 0px;
+}
+
+.quicksearch {
+  WIDTH: 150px;
+  MARGIN: 0px 0px 0px 0px;
+  PADDING-TOP: 0px;
+  PADDING-BOTTOM: 0px;
+  PADDING-RIGHT: 0px;
+  PADDING-LEFT: 10px;
+  BACKGROUND: #e8e8e8;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 10px;
+  COLOR: #000;
+  TEXT-DECORATION: none; 
+}
+
+.quicksearch_field {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 9px;
+  COLOR: #000;
+}
+
+.upper_nav {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 15px;
+  COLOR: #000;
+  POSITION: absolute;
+  vertical-align:middle;
+}
+.upper_nav A {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 15px;
+  COLOR: #000;
+  TEXT-DECORATION: none;
+}
+.upper {
+  POSITION: relative;
+  TOP: 85px;
+  LEFT: 490px;
+  HEIGHT: 20px;
+  MARGIN: 0px 0px 0px 0px;
+  PADDING: 0px;
+  BORDER: 0px 0px 0px 0px;
+  BACKGROUND: #FFF;
+  BACKGROUND-IMAGE: url(images/header_pill.jpg);
+}

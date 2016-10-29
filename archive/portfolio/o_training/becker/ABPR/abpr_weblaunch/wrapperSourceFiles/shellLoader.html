@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>shellLoader</title>
+		<script language="javascript">
+			function getQueryVariable(variable) {
+			  var query = window.location.search.substring(1);
+			  var vars = query.split("&");
+			  for (var i=0;i<vars.length;i++) {
+			    var pair = vars[i].split("=");
+			    if (pair[0] == variable) {
+			      return pair[1];
+			    }
+			  } 
+			  alert('Query variable ' + variable + ' not found');
+			}
+			function minimize(){
+				window.moveTo(0,0);
+				window.blur();
+			}
+			function resize(){
+				window.resizeTo(screen.width,screen.height);
+				window.moveTo(0,0);
+				var contentHeight = screen.height - window.screenTop - 35;
+				if (contentHeight <= 740){
+					var heightPercentDiff = contentHeight/740;
+					// correct for aspect ration
+					var aspect = window.document.shellLoader.height / window.document.shellLoader.width;
+					var newHeight = contentHeight;
+					window.document.shellLoader.height = newHeight;
+					window.document.shellLoader.width = window.document.shellLoader.width * heightPercentDiff;
+				}
+			}
+			function triggerResize(){
+				setTimeout(resize,500);
+			}
+		//triggerResize();
+		</script>
+	</head>
+	<body bgcolor="#6c6c6c" leftmargin="0" topmargin="0">
+	<script>
+		var inits = getQueryVariable("inits");
+		var objTag = '		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="100%" id="shellLoader" align="center">' + 
+				'			<param name="allowScriptAccess" value="always" />' +
+				'			<param name="movie" value="shellLoader.swf?&wrapperUrl=wrapper.swf&courseXml=course.xml&speedChoices=low|med|high&inits=' + inits + '" />' +
+				'			<param name="quality" value="high" />' + 
+				'			<param name="bgcolor" value="#6c6c6c" />' +
+				'			<embed src="./shellLoader.swf?&wrapperUrl=wrapper.swf&courseXml=course.xml&speedChoices=low|med|high&inits=' + inits + '" quality="high" bgcolor="#6c6c6c" width="100%" height="100%" name="shellLoader" align="center" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />' +
+				'		</object>';
+		document.write(objTag);
+	</script>
+	</body>
+</html>

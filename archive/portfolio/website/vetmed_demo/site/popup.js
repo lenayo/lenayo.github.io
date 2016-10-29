@@ -1,0 +1,1 @@
+function openWindow(width,height) {    x = (640 - width)/2, y = (480 - height)/2;    if (screen) {        y = (screen.availHeight - height)/2;        x = (screen.availWidth - width)/2;    }    window.open('index3.html','vetmedwin','width='+width+',height='+height+',screenX='+x+',screenY='+y+',top='+y+',left='+x);}

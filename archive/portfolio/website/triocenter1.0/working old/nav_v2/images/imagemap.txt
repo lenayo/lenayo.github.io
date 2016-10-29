@@ -1,0 +1,7 @@
+<IMG NAME="gif0" SRC="layoutimages/gif.gif" WIDTH="750" HEIGHT="450" BORDER="0" USEMAP="#gif">
+<MAP NAME="gif">
+<AREA SHAPE="rect" COORDS="443,325,562,362" HREF="#girl" TARGET="menu" class="menu">
+<AREA SHAPE="rect" COORDS="443,368,562,401" HREF="#art" TARGET="menu" class="menu">
+<AREA SHAPE="rect" COORDS="612,325,746,362" HREF="#junk" TARGET="menu" class="menu">
+<AREA SHAPE="rect" COORDS="612,368,746,401" HREF="#site" TARGET="menu" class="menu">
+</MAP>
