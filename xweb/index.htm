@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery lightBox plugin</title>
+
+	<link rel="stylesheet" type="text/css" href="../style-projects-jquery.css" />    
+    
+    <!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+    
+    <!-- Ativando o jQuery lightBox plugin -->
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+   	<style type="text/css">
+	/* jQuery lightBox plugin - Gallery style */
+body {
+		background-color: #444;
+		background-image: url('photos/backgroundimage.png');
+	}
+
+	#shell {
+		width:1000px;
+		margin: auto;
+}
+	#example {
+		padding: 100px 0 0 60px;
+		
+}
+	#gallery {
+		padding: 10px;
+		width: 1000px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li {
+		display: inline; 
+		padding: 25px;
+	}	
+	#gallery ul img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;	
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+</head>
+
+<body>
+<div id="shell">
+	<h2 id="example"><img alt="" height="35" src="photos/title.png" width="541" /></h2>
+	<div id="gallery">
+    <ul>
+        <li>
+            <a href="photos/wintheme/xcoreall.png" title="Expression Web Toolbar Icon">
+                <img src="photos/1_1.png"/></a>
+        </li>
+        
+        <li>
+            <a href="photos/spicons/spicons.png" title="Expression Web SuperPreview Toolbar Icon">
+                 <img src="photos/1_2.png"/></a>
+        </li>
+        
+        <li>
+            <a href="photos/product icons/allproduct-icons.png" title="Desktop Icons for Expression Products">
+                <img src="photos/1_3.png" /></a>
+        </li>
+     </ul> 
+       
+     <ul>
+        <li>
+            <a href="photos/cssgrid/cssgridlayout.png" title="CSS Grid Add-Ins Dialog">
+                <img src="photos/2_1.png"/></a>
+        </li>
+        
+        <li>
+            <a href="photos/insertsymbol/insertsymbol.png" title="Insert Symbol Add-Ins Dialog and Styleguide">
+                 <img src="photos/2_2.png"/></a>
+        </li>
+        
+        <li>
+            <a href="photos/superpreview/spwizard.png" title="Expression Web SuperPreview Remote Sign up Wizard">
+                <img src="photos/2_3.png" /></a>
+        </li>
+      </ul> 
+      
+	  <ul> 
+        <li>
+            <a href="photos/sitetemplate/sitetemplate.png" title="Expression Web Examples of Site Templates ~ Green">
+                <img src="photos/3_1.png"/></a>
+        </li>
+        
+             
+        <li>
+            <a href="photos/sitetemplate2/sitearchitect.png" title="Expression Web Examples of Site Templates ~ Architecture">
+                <img src="photos/3_3.png" /></a>
+        </li>
+        
+          <li>
+            <a href="photos/splandingpage/landingpage.png" title="Expression Web SuperPreview Remote Validation Page">
+                 <img src="photos/3_2.png"/></a>
+        </li>
+
+
+
+           </ul>
+	</div>
+</div>
+</body>
+</html>
