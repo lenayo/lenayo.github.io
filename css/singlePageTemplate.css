@@ -279,8 +279,7 @@ footer {
 	float: none;
 	display: none;
 }
-header nav ul {
-}
+
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -363,7 +362,6 @@ nav ul li {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	width: 100%;
-	float: none;
 	overflow: auto;
 	display: inline-block;
 	background: #52bad5;
