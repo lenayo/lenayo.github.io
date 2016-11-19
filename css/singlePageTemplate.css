@@ -10,6 +10,16 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+
+a:link {
+	color: #00EEF4;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #02A8A8;
+}
+
 /* Container */
 .container {
 	width: 90%;
